@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  Test:
     runs-on: ubuntu-latest
     steps:
     - name: "Checkout"
@@ -19,7 +19,7 @@ jobs:
         dotnet-version: 3.1.*
     
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore Tests/
     
     - name: Build
       run: dotnet build GitHub_App/ --configuration Release --no-restore
