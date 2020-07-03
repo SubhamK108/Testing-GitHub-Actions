@@ -22,4 +22,4 @@ jobs:
       run: dotnet restore GitHub_App/
     
     - name: Build
-      run: dotnet build --c Release --no-restore GitHub_App/
+      run: dotnet build -c Release --no-restore GitHub_App/
