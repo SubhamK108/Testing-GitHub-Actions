@@ -26,7 +26,7 @@ namespace Tests
             string M = GetMinutes(ref data);
             string S = GetSeconds(ref data);
 
-            Assert.Equal("19:48:37", $"{H}:{M}:{S}");
+            Assert.Equal("19:47:37", $"{H}:{M}:{S}");
         }
     }
 }
