@@ -23,3 +23,10 @@ jobs:
     
     - name: Build
       run: dotnet build GitHub_App/ --configuration Release --no-restore
+
+    - name: List Tests
+      run: dotnet test -t Tests/
+
+    - name: Test
+      run: dotnet test Tests/ --no-restore --verbosity normal
+
