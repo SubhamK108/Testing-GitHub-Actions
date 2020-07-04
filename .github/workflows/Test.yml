@@ -2,9 +2,12 @@ name: .NET Core
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
   Test:
@@ -29,4 +32,3 @@ jobs:
 
     - name: Test
       run: dotnet test -v n --no-restore Tests/
-
