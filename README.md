@@ -5,6 +5,5 @@
 - Test (XUnit)
 
 ## Screenshots:
-![Tests1](/Assets/ss0X.png)
 ![Tests1](/Assets/ss01.png)
 ![Tests1](/Assets/ss02.png)
